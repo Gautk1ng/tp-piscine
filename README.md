@@ -1,1 +1,1 @@
-# tp-piscine
+# Un TP académique
