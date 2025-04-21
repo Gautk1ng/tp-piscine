@@ -3,8 +3,10 @@ interface Personne {
     age: number
 }
 
-function afficherPersonne(personne1: Personne) { 
-    console.log(`Bonjour, je m'appelle ${personne1.nom} et j'ai ${personne1.age} ans.`)
+function afficherPersonne(perso: Personne) { 
+    console.log(`Bonjour, je m'appelle ${perso.nom} et j'ai ${perso.age} ans.`)
 }
 
-afficherPersonne({ nom: "Dubois", age: 22 })
+let personne1 = afficherPersonne({nom: "Dubois", age: 22})
+
+console.log(personne1)
